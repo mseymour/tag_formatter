@@ -4,7 +4,7 @@ Tag Formatter
 
 Author information
 ------------------
-Mark Seymour ('Azure')
-Email: mark.seymour.ns@gmail.com
-WWW: http://lain.rustedlogic.net/
-IRC: #shakesoda @ irc.freenode.net
+* Mark Seymour ('Azure')
+* Email: mark.seymour.ns@gmail.com
+* WWW: http://lain.rustedlogic.net/
+* IRC: #shakesoda @ irc.freenode.net
