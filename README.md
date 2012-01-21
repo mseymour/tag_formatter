@@ -8,7 +8,7 @@ Currently, as of 2012-01-21 at 6:00 PM AST, the gem is not in the RubyGems repos
 
     git clone git://github.com/mseymour/tag_formatter.git
     gem build tag_formatter/tag_formatter.gemspec
-    gem install --local tag_formatter/tag_formatter-0.0.1.pre-1.gem
+    gem install --local tag_formatter/tag_formatter-0.0.1.pre1.gem
 
 Usage
 -----
