@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.authors               = ["Mark Seymour"]
   s.email                 = ['mark.seymour.ns@gmail.com']
   s.post_install_message  = "Happy tagging!"
-  s.require_paths         = ['lib/']
   s.required_ruby_version = '>= 1.9.2'
   s.version               = TagFormatter::Version.to_s
 end
