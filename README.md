@@ -22,6 +22,7 @@ Valid option symbols for configuring an instance of `TagFormatter`:
 * `block_comment_end` (`String`)
 
 Formatting a block of text using the default options:
+
     text = <<-HEREDOC
     Hello, I am {firstname} {lastname}.
     I like {something}. #Something can be anything.
@@ -34,6 +35,7 @@ Formatting a block of text using the default options:
     puts tf.parse! #=> Hello, I am Mark Seymour.\nI like listening to music.
 
 Formatting a block of text using user-supplied options:
+
     text = "I like to %verb% it, %verb% it!"
     tf = TagFormatter.new text, tags: {verb: "move"}, tag_start: '%', tag_end: '%'
     puts tf.parse! #=> I like to move it, move it!
