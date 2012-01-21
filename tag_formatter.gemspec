@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
   s.post_install_message  = "Happy tagging!"
   s.required_ruby_version = '>= 1.9.2'
   s.version               = TagFormatter::Version.to_s
+  s.files                 = Dir['LICENSE', 'README.md','HISTORY.md', '{lib,test}/**/*']
 end
