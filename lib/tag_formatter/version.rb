@@ -18,7 +18,7 @@ module TagFormatter
 
     # @return [String, NilClass]
     def self.pre
-      "pre-1"
+      "pre1"
     end
 
     # @return [String]
