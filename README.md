@@ -13,6 +13,7 @@ Currently, as of 2012-01-21 at 6:00 PM AST, the gem is not in the RubyGems repos
 Usage
 -----
 Valid option symbols for configuring an instance of `TagFormatter`:
+
 * `tags` (`Hash`)
 * `tag_start` (`String`)
 * `tag_end` (`String`)
