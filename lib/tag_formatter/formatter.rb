@@ -1,11 +1,14 @@
 # coding: utf-8
+# @author Mark Seymour
 
 module TagFormatter
   class Formatter
     @@_known_params = [:tags, :tag_start, :tag_end, :inline_comment_delimiter, :block_comment_start, :block_comment_end]
     attr_accessor :input
     attr_accessor *@@_known_params
-
+    
+    # Creates a new instance of TagFormatter::Formatter.
+    #
     # @param [String, File] input The input; may be either a String or a File.
     # @param [Hash] params The options for parsing the String or File.
     # @option params [Hash] :tags ({}) Key+value pairs representing the tags and values associated with the tags.
@@ -41,13 +44,19 @@ module TagFormatter
       end
     end
 
+    # Parses the supplied input and returned a decommented, tagified, cleaned string.
+    #
+    # @return A string with the parsed input.
     def parse!
       tagify(decommentify(@input)).strip
     end
 
     private
 
+    # Decommentifies the supplied input.
+    #
     # @param [String] input The string to decommentify.
+    # @return A string with the decommented input.
     def decommentify input
       output = input.dup
       # Remove multiline comments:
@@ -57,8 +66,11 @@ module TagFormatter
       return output.lines.map(&:strip).join($/)
     end
 
+    # Tagifies the supplied input.
+    #
     # @param [String] input The string to tagify.
     # @raise [StandardError] @tags must not be empty.
+    # @return A string with the tags replaced with their values.
     def tagify input
       output = input.dup
       raise StandardError, "@tags is empty!" if @tags.empty? #improve on this
