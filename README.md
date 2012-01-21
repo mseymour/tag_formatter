@@ -36,8 +36,7 @@ Formatting a block of text using the default options:
 
 Formatting a block of text using user-supplied options:
 
-    text = "I like to %verb% it, %verb% it!"
-    tf = TagFormatter.new text, tags: {verb: "move"}, tag_start: '%', tag_end: '%'
+    tf = TagFormatter.new "I like to %verb% it, %verb% it!", tags: {verb: "move"}, tag_start: '%', tag_end: '%'
     puts tf.parse! #=> I like to move it, move it!
 
 Contribute
