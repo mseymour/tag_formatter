@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.homepage              = 'https://github.com/mseymour/Tag-Formatter'
   s.license               = 'MIT'
   s.authors               = ["Mark Seymour"]
-  s.emails                = ['mark.seymour.ns@gmail.com']
+  s.email                 = ['mark.seymour.ns@gmail.com']
   s.post_install_message  = "Happy tagging!"
   s.require_paths         = ['lib']
   s.required_ruby_version = '>= 1.9.2'
