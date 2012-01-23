@@ -1,6 +1,6 @@
 Tag Formatter
 =============
-**Tag Formatter** (for a lack of a better name) is—of course—a Ruby gem that takes in text input with "tags", and replaces those tags with text as defined by the programmer.
+**Tag Formatter** (for a lack of a better name) is—of course—a basic templating system that takes in text input with "tags", and replaces those tags with text as defined by the programmer.
 
 Installation
 ------------
