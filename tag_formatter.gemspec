@@ -3,9 +3,9 @@ require File.expand_path('../lib/tag_formatter/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name                  = 'tag_formatter'
-  s.description           = "A simple file/string tag parser."
+  s.description           = "A simple file/string templating system."
   s.summary               = "Tag Formatter"
-  s.homepage              = 'https://github.com/mseymour/Tag-Formatter'
+  s.homepage              = 'https://github.com/mseymour/tag_formatter'
   s.license               = 'MIT'
   s.authors               = ["Mark Seymour"]
   s.email                 = ['mark.seymour.ns@gmail.com']
