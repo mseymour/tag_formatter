@@ -4,8 +4,11 @@ Tag Formatter
 
 Installation
 ------------
-Currently, as of 2012-01-21 at 6:00 PM AST, the gem is not in the RubyGems repository. You can however clone the repository and then build+install the gem like so:
 
+### Installation via `gem`
+    gem install tag_formatter
+
+### Installation via GIT
     git clone git://github.com/mseymour/tag_formatter.git
     cd tag_formatter/
     gem build tag_formatter.gemspec
