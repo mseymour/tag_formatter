@@ -12,7 +12,7 @@ Installation
     git clone git://github.com/mseymour/tag_formatter.git
     cd tag_formatter/
     gem build tag_formatter.gemspec
-    gem install tag_formatter-0.0.1.pre1.gem
+    gem install tag_formatter-0.0.3.gem
 
 Usage
 -----
