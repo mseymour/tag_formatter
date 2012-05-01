@@ -13,12 +13,12 @@ module TagFormatter
 
     # @return [Integer]
     def self.patch
-      1
+      2
     end
 
     # @return [String, NilClass]
     def self.pre
-      "pre1"
+      nil
     end
 
     # @return [String]

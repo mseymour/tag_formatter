@@ -44,10 +44,10 @@ module TagFormatter
       end
     end
 
-    # Parses the supplied input and returned a decommented, tagified, cleaned string.
+    # Parses the supplied input and returned a decommented, tagified and cleaned string.
     #
     # @return A string with the parsed input.
-    def parse!
+    def parse
       tagify(decommentify(@input)).strip
     end
 

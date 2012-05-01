@@ -36,12 +36,12 @@ Formatting a block of text using the default options:
     
     tf = TagFormatter.new text, tags: {firstname: "Mark", lastname: "Seymour", something: "listening to music"}
     
-    puts tf.parse! #=> Hello, I am Mark Seymour.\nI like listening to music.
+    puts tf.parse #=> Hello, I am Mark Seymour.\nI like listening to music.
 
 Formatting a block of text using user-supplied options:
 
     tf = TagFormatter.new "I like to %verb% it, %verb% it!", tags: {verb: "move"}, tag_start: '%', tag_end: '%'
-    puts tf.parse! #=> I like to move it, move it!
+    puts tf.parse #=> I like to move it, move it!
 
 Contribute
 ----------
