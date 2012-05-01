@@ -12,6 +12,6 @@ HISTORY
 * Updated readme with new instructions
 * Updating gemspec with proper repo url and description
 
-0.0.2 - May 01, 2012
+0.0.3 - May 01, 2012
 --------------------
 * Renamed tf#parse! to tf#parse
