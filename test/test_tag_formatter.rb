@@ -17,7 +17,7 @@ class TagFormatterTest < Test::Unit::TestCase
       tags: my_tags
     }
     assert_equal expected_output,
-      TagFormatter.new(input, options).parse!
+      TagFormatter.new(input, options).parse
   end
 
   def test_parser_with_options
@@ -39,7 +39,7 @@ class TagFormatterTest < Test::Unit::TestCase
       block_comment_end: '=)'
     }
     assert_equal expected_output,
-      TagFormatter.new(input, options).parse!
+      TagFormatter.new(input, options).parse
   end
 
 end
